@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    /* background-color: #283149; */
+    background-image: url("images/background_image.png");
+    /* height: 500px; You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: rgba(118, 236, 114, 0.788);
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    word-spacing: 50px;
+  
+  }
+  
+  p {
+    font-size: 2rem;
+    color: rgba(220, 243, 13, 0.788);
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 rgb(61, 42, 235);
+    /* word-spacing: 50px; */
+  }
+
+  footer {
+    color: rgb(21, 110, 4);
+    font-family: sans-serif;
+  }
+  
+  .First_String_e {
+    background-image: url("images/Guitar_1.png")
+  }
+  
+  .Second_String_B {
+    background-image: url("images/Guitar_2.png")
+  }
+  
+  .Third_String_G {
+    background-image: url("images/Guitar_3.png")
+  }
+  
+  .Fourth_String_D {
+    background-image: url("images/Guitar_4.png")
+  }
+  
+  .Fifth_String_A {
+    background-image: url("images/Guitar_5.png")
+  }
+  
+  .Sixth_String_E {
+    background-image: url("images/Guitar_6.png")
+  }
+  
+  .C_Chord {
+    background-image: url("images/Guitar_7.png")
+  }
+  
+  .set {
+    margin: 3% auto;
+  }
+  
+  /* .game-over {
+    background-color: red;
+    opacity: 0.8;
+  } */
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .guitar {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    line-height: 1;
+    font-weight: 900;
+    color: rgb(122, 4, 218);
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    margin: 18px;
+    background-color: white;
+  }
+  
